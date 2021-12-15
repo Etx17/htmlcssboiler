@@ -1,23 +1,102 @@
-.card {
-  position: relative;
-  height: 250px;
-  background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("http://unsplash.it/400/300/?random");
-  background-size: cover;
-  color: white;
+*{
+  border: solid 0px rgb(190, 221, 190);
+  background: rgb(31, 31, 68);
+  font-family: 'Gill Sans', sans-serif;
+  font-size: 14px;
 }
 
-.card-user {
-  position: absolute;
-  top: 10px;
-  right: 10px;
+div {
+  background-color:transparent;
 }
-.card-category {
-  position: absolute;
-  top: 10px;
-  left: 10px;
+
+.card {
+  position: relative;
+  height: 440px;
+  width: 260px;
+  background-color: rgb(45, 51, 83);
+  color: white;
+  border-radius: 10px;
+  display:flex;
+  flex-direction: column;
 }
+
+
+
+#card-image{
+  border-radius:5px;
+  margin:15px;
+}
+
+
 .card-description {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  padding: 0px 15px;
+  justify-content: space-around;
+  
+
+}
+
+.title {
+  color: white;
+  font-size: 19px;
+  font-family: 'Gill Sans', sans-serif;
+ 
+ 
+}
+
+.informations {
+  color: grey;
+  font-size: 14px;
+  
+}
+
+.auction {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: grey;
+}
+#price {
+  color: aqua;
+  font-size: 14px;
+}
+#time {
+  font-size: 14px;
+}
+.credits {
+  color: grey;
+  background-color:transparent;
+  margin: 5px 15px;
+  display:flex;
+  flex-direction:row;
+  border-top: solid grey 1px;
+  
+}
+
+.name {
+  color: white;
+  background-color:transparent;
+  font-size: 14px;
+}
+
+svg {
+  background-color:transparent;
+  margin-top: 3px;
+  position:relative;
+  top: 4px;
+}
+
+#avatar {
+  height: 35px;
+  width:35px;
+  border-radius: 50% 50%;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom:10px;
+}
+.creation {
+  margin: auto 0;
+  font-size: 14px;
 }
